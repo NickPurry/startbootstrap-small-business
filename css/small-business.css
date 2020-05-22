@@ -6,3 +6,106 @@
 body {
   padding-top: 56px;
 }
+#reptileBody {
+  background-image: linear-gradient(to left, rgb(151, 189, 147), #458B29 , rgb(151, 189, 147));
+}
+.navbar {
+  background-image: linear-gradient(to right, #0F5809, #458B29 , #1CA211);
+  padding: 20px
+}
+.navbar-brand, h1 {
+  font-family: "Shrikhand";
+  font-size: 25px;
+}
+.navbar .dropdown:hover .dropdown-menu, .dropdown-menu:hover {
+  display:block!important;
+}
+.navbar .dropdown-menu {
+  background-color: white;
+  border: 1px solid black;
+  padding: 10px;
+}
+.carousel {
+  border: outset #1CA211;
+}
+.carousel-item {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); 
+  box-shadow: 1px 1px 5px 0px #1CA211;
+  text-shadow: 2px 2px 7px 1px #1CA211;
+  letter-spacing: 3px;
+  font-family: "Nunito";
+}
+h2.card-title {
+  font-family: "Shrikhand";
+  color: #FFFFFF;
+}
+h2.card-title:hover {
+  transform: scale(1.02);
+}
+h2.card-title:hover:after {
+  opacity: 1;
+}
+#cardHover:hover {
+  transform: scale(1.02);
+}
+#cardHover:hover:after {
+  opacity: 1;
+}
+h4 {
+  font-family: "Nunito";
+}
+p {
+  font-family: "Nunito";
+}
+hr.style-two {
+  border-top: 1px dashed;
+}
+hr.style-one {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+#cardHover {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+}
+.fa {
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.fa-youtube { 
+  background: #bb0000;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
