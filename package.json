@@ -20,7 +20,7 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Nick Perry",
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
@@ -29,7 +29,9 @@
         "url": "https://github.com/BlackrockDigital/startbootstrap-small-business.git"
     },
     "dependencies": {
+        "@popperjs/core": "^2.3.3",
         "bootstrap": "4.3.1",
+        "font-awesome": "^4.7.0",
         "jquery": "3.4.1"
     },
     "devDependencies": {
