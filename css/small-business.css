@@ -6,9 +6,6 @@
 body {
   padding-top: 56px;
 }
-#reptileBody {
-  background-image: linear-gradient(to left, rgb(151, 189, 147), #458B29 , rgb(151, 189, 147));
-}
 .navbar {
   background-image: linear-gradient(to right, #0F5809, #458B29 , #1CA211);
   padding: 20px
@@ -45,6 +42,9 @@ body {
   letter-spacing: 3px;
   font-family: "Nunito";
 }
+.modal-header{
+  background-image: linear-gradient(to right, #0F5809, #458B29 , #1CA211);
+}
 h2.card-title {
   font-family: "Shrikhand";
   color: #FFFFFF;
@@ -66,6 +66,26 @@ h4 {
 }
 p {
   font-family: "Nunito";
+}
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+hr.style-three {
+  overflow: visible;
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr.style-three:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.9em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
 }
 hr.style-two {
   border-top: 1px dashed;
